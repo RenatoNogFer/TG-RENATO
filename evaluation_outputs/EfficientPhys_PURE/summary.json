@@ -1,0 +1,33 @@
+{
+  "experiment_id": "EfficientPhys_PURE",
+  "model_name": "EfficientPhys",
+  "pretrain_dataset": "PURE",
+  "checkpoint_name": "PURE_EfficientPhys.pth",
+  "model_path": "./final_model_release/PURE_EfficientPhys.pth",
+  "config_file": "./configs/tcc_configs/PURE/TCC_EfficientPhys.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T13:53:47",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9603,
+  "n_invalid_events": 731,
+  "coverage_rate": 0.9292626282175344,
+  "global_metrics": {
+    "n_valid_events": 9603,
+    "MAE": 25.71245720738311,
+    "MAE_std_err": 0.1593054499030372,
+    "RMSE": 30.080518005200332,
+    "RMSE_std_err": 0.1593054499030372,
+    "MAPE": 28.559288715238182,
+    "MAPE_std_err": 0.16635733538595385,
+    "Pearson": -0.03773361433534695,
+    "Pearson_std_err": 0.010198407590320846,
+    "median_abs_error": 24.87109375,
+    "std_abs_error": 15.61112128643147
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/EfficientPhys_PURE/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/EfficientPhys_PURE/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/EfficientPhys_PURE/group_metrics.csv"
+  }
+}

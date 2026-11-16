@@ -1,0 +1,33 @@
+{
+  "experiment_id": "PhysFormer_PURE",
+  "model_name": "PhysFormer",
+  "pretrain_dataset": "PURE",
+  "checkpoint_name": "PURE_PhysFormer_DiffNormalized.pth",
+  "model_path": "./final_model_release/PURE_PhysFormer_DiffNormalized.pth",
+  "config_file": "./configs/tcc_configs/PURE/TCC_PhysFormer.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T15:25:19",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9614,
+  "n_invalid_events": 720,
+  "coverage_rate": 0.9303270756725373,
+  "global_metrics": {
+    "n_valid_events": 9614,
+    "MAE": 20.946299423366966,
+    "MAE_std_err": 0.1426352551514761,
+    "RMSE": 25.186157322504148,
+    "RMSE_std_err": 0.1426352551514761,
+    "MAPE": 23.54455632688525,
+    "MAPE_std_err": 0.15761009756552805,
+    "Pearson": -0.09510175797946395,
+    "Pearson_std_err": 0.010153604180981577,
+    "median_abs_error": 19.24609375,
+    "std_abs_error": 13.985530420423315
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/PhysFormer_PURE/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/PhysFormer_PURE/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/PhysFormer_PURE/group_metrics.csv"
+  }
+}

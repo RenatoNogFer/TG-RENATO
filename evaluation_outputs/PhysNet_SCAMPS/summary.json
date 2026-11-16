@@ -1,0 +1,33 @@
+{
+  "experiment_id": "PhysNet_SCAMPS",
+  "model_name": "PhysNet",
+  "pretrain_dataset": "SCAMPS",
+  "checkpoint_name": "SCAMPS_PhysNet_DiffNormalized.pth",
+  "model_path": "./final_model_release/SCAMPS_PhysNet_DiffNormalized.pth",
+  "config_file": "./configs/tcc_configs/SCAMPS/TCC_PhysNet.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T20:34:10",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9616,
+  "n_invalid_events": 718,
+  "coverage_rate": 0.9305206115734469,
+  "global_metrics": {
+    "n_valid_events": 9616,
+    "MAE": 18.31558567751664,
+    "MAE_std_err": 0.1328310797767093,
+    "RMSE": 22.47501509425819,
+    "RMSE_std_err": 0.1328310797767093,
+    "MAPE": 21.223623217771554,
+    "MAPE_std_err": 0.16464284372380827,
+    "Pearson": 0.008833699301743422,
+    "Pearson_std_err": 0.010198375430760366,
+    "median_abs_error": 16.05078125,
+    "std_abs_error": 13.025575794439217
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/PhysNet_SCAMPS/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/PhysNet_SCAMPS/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/PhysNet_SCAMPS/group_metrics.csv"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "experiment_id": "RhythmFormer_UBFC-rPPG",
+  "model_name": "RhythmFormer",
+  "pretrain_dataset": "UBFC-rPPG",
+  "checkpoint_name": "UBFC-rPPG_RhythmFormer.pth",
+  "model_path": "./final_model_release/UBFC-rPPG_RhythmFormer.pth",
+  "config_file": "./configs/tcc_configs/UBFC-rPPG/TCC_RhythmFormer.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-18T01:23:18",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9614,
+  "n_invalid_events": 720,
+  "coverage_rate": 0.9303270756725373,
+  "global_metrics": {
+    "n_valid_events": 9614,
+    "MAE": 26.58765862284169,
+    "MAE_std_err": 0.18373319515473407,
+    "RMSE": 32.11622513122863,
+    "RMSE_std_err": 0.18373319515473407,
+    "MAPE": 31.36497096322326,
+    "MAPE_std_err": 0.23676409855879588,
+    "Pearson": 0.03221285169512124,
+    "Pearson_std_err": 0.010194540962571268,
+    "median_abs_error": 24.39453125,
+    "std_abs_error": 18.0152248288772
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/RhythmFormer_UBFC-rPPG/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/RhythmFormer_UBFC-rPPG/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/RhythmFormer_UBFC-rPPG/group_metrics.csv"
+  }
+}

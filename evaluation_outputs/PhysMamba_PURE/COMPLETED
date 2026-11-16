@@ -1,0 +1,6 @@
+completed_at=2026-05-17T15:57:04
+experiment_id=PhysMamba_PURE
+model_name=PhysMamba
+pretrain_dataset=PURE
+n_total_events=10334
+n_valid_events=9616

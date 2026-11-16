@@ -1,0 +1,6 @@
+completed_at=2026-05-17T22:01:57
+experiment_id=DeepPhys_UBFC-rPPG
+model_name=DeepPhys
+pretrain_dataset=UBFC-rPPG
+n_total_events=10334
+n_valid_events=9603

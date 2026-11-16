@@ -1,0 +1,33 @@
+{
+  "experiment_id": "PhysNet_PURE",
+  "model_name": "PhysNet",
+  "pretrain_dataset": "PURE",
+  "checkpoint_name": "PURE_PhysNet_DiffNormalized.pth",
+  "model_path": "./final_model_release/PURE_PhysNet_DiffNormalized.pth",
+  "config_file": "./configs/tcc_configs/PURE/TCC_PhysNet.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T16:18:25",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9616,
+  "n_invalid_events": 718,
+  "coverage_rate": 0.9305206115734469,
+  "global_metrics": {
+    "n_valid_events": 9616,
+    "MAE": 24.965650917091306,
+    "MAE_std_err": 0.15023254241102202,
+    "RMSE": 28.988188699122507,
+    "RMSE_std_err": 0.15023254241102202,
+    "MAPE": 27.75133178419461,
+    "MAPE_std_err": 0.15852709266916365,
+    "Pearson": -0.057711019399337864,
+    "Pearson_std_err": 0.010181775378003908,
+    "median_abs_error": 24.4453125,
+    "std_abs_error": 14.73198419568362
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/PhysNet_PURE/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/PhysNet_PURE/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/PhysNet_PURE/group_metrics.csv"
+  }
+}

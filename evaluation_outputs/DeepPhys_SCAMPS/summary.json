@@ -1,0 +1,33 @@
+{
+  "experiment_id": "DeepPhys_SCAMPS",
+  "model_name": "DeepPhys",
+  "pretrain_dataset": "SCAMPS",
+  "checkpoint_name": "SCAMPS_DeepPhys.pth",
+  "model_path": "./final_model_release/SCAMPS_DeepPhys.pth",
+  "config_file": "./configs/tcc_configs/SCAMPS/TCC_DeepPhys.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T18:06:12",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9603,
+  "n_invalid_events": 731,
+  "coverage_rate": 0.9292626282175344,
+  "global_metrics": {
+    "n_valid_events": 9603,
+    "MAE": 26.91821200080704,
+    "MAE_std_err": 0.16625140875242275,
+    "RMSE": 31.464464919491544,
+    "RMSE_std_err": 0.16625140875242275,
+    "MAPE": 29.871965879058163,
+    "MAPE_std_err": 0.172992214470351,
+    "Pearson": -0.021274051505708592,
+    "Pearson_std_err": 0.010203365999220237,
+    "median_abs_error": 26.203125,
+    "std_abs_error": 16.291789814183154
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/DeepPhys_SCAMPS/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/DeepPhys_SCAMPS/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/DeepPhys_SCAMPS/group_metrics.csv"
+  }
+}

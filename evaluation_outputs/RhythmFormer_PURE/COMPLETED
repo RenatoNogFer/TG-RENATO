@@ -1,0 +1,6 @@
+completed_at=2026-05-17T16:57:43
+experiment_id=RhythmFormer_PURE
+model_name=RhythmFormer
+pretrain_dataset=PURE
+n_total_events=10334
+n_valid_events=9614

@@ -6,7 +6,7 @@ Weixuan Chen, Daniel McDuff
 
 import torch
 import torch.nn as nn
-
+import numpy as np
 
 class Attention_mask(nn.Module):
     def __init__(self):
@@ -28,13 +28,7 @@ class DeepPhys(nn.Module):
 
     def __init__(self, in_channels=3, nb_filters1=32, nb_filters2=64, kernel_size=3, dropout_rate1=0.25,
                  dropout_rate2=0.5, pool_size=(2, 2), nb_dense=128, img_size=36):
-        """Definition of DeepPhys.
-        Args:
-          in_channels: the number of input channel. Default: 3
-          img_size: height/width of each frame. Default: 36.
-        Returns:
-          DeepPhys model.
-        """
+        """Definition of DeepPhys."""
         super(DeepPhys, self).__init__()
         self.in_channels = in_channels
         self.kernel_size = kernel_size
@@ -44,34 +38,34 @@ class DeepPhys(nn.Module):
         self.nb_filters1 = nb_filters1
         self.nb_filters2 = nb_filters2
         self.nb_dense = nb_dense
+        
         # Motion branch convs
-        self.motion_conv1 = nn.Conv2d(self.in_channels, self.nb_filters1, kernel_size=self.kernel_size, padding=(1, 1),
-                                      bias=True)
+        self.motion_conv1 = nn.Conv2d(self.in_channels, self.nb_filters1, kernel_size=self.kernel_size, padding=(1, 1), bias=True)
         self.motion_conv2 = nn.Conv2d(self.nb_filters1, self.nb_filters1, kernel_size=self.kernel_size, bias=True)
-        self.motion_conv3 = nn.Conv2d(self.nb_filters1, self.nb_filters2, kernel_size=self.kernel_size, padding=(1, 1),
-                                      bias=True)
+        self.motion_conv3 = nn.Conv2d(self.nb_filters1, self.nb_filters2, kernel_size=self.kernel_size, padding=(1, 1), bias=True)
         self.motion_conv4 = nn.Conv2d(self.nb_filters2, self.nb_filters2, kernel_size=self.kernel_size, bias=True)
+        
         # Apperance branch convs
-        self.apperance_conv1 = nn.Conv2d(self.in_channels, self.nb_filters1, kernel_size=self.kernel_size,
-                                         padding=(1, 1), bias=True)
+        self.apperance_conv1 = nn.Conv2d(self.in_channels, self.nb_filters1, kernel_size=self.kernel_size, padding=(1, 1), bias=True)
         self.apperance_conv2 = nn.Conv2d(self.nb_filters1, self.nb_filters1, kernel_size=self.kernel_size, bias=True)
-        self.apperance_conv3 = nn.Conv2d(self.nb_filters1, self.nb_filters2, kernel_size=self.kernel_size,
-                                         padding=(1, 1), bias=True)
+        self.apperance_conv3 = nn.Conv2d(self.nb_filters1, self.nb_filters2, kernel_size=self.kernel_size, padding=(1, 1), bias=True)
         self.apperance_conv4 = nn.Conv2d(self.nb_filters2, self.nb_filters2, kernel_size=self.kernel_size, bias=True)
+        
         # Attention layers
         self.apperance_att_conv1 = nn.Conv2d(self.nb_filters1, 1, kernel_size=1, padding=(0, 0), bias=True)
         self.attn_mask_1 = Attention_mask()
         self.apperance_att_conv2 = nn.Conv2d(self.nb_filters2, 1, kernel_size=1, padding=(0, 0), bias=True)
         self.attn_mask_2 = Attention_mask()
-        # Avg pooling
+        
+        # Avg pooling & Dropout
         self.avg_pooling_1 = nn.AvgPool2d(self.pool_size)
         self.avg_pooling_2 = nn.AvgPool2d(self.pool_size)
         self.avg_pooling_3 = nn.AvgPool2d(self.pool_size)
-        # Dropout layers
         self.dropout_1 = nn.Dropout(self.dropout_rate1)
         self.dropout_2 = nn.Dropout(self.dropout_rate1)
         self.dropout_3 = nn.Dropout(self.dropout_rate1)
         self.dropout_4 = nn.Dropout(self.dropout_rate2)
+        
         # Dense layers
         if img_size == 36:
             self.final_dense_1 = nn.Linear(3136, self.nb_dense, bias=True)
@@ -82,6 +76,9 @@ class DeepPhys(nn.Module):
         else:
             raise Exception('Unsupported image size')
         self.final_dense_2 = nn.Linear(self.nb_dense, 1, bias=True)
+        
+        # Contador para limitar logs de debug
+        self.debug_iter = 0
 
     def forward(self, inputs, params=None):
 
@@ -122,4 +119,3 @@ class DeepPhys(nn.Module):
         out = self.final_dense_2(d11)
 
         return out
-

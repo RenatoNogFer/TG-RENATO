@@ -1,0 +1,33 @@
+{
+  "experiment_id": "TSCAN_SCAMPS",
+  "model_name": "TSCAN",
+  "pretrain_dataset": "SCAMPS",
+  "checkpoint_name": "SCAMPS_TSCAN.pth",
+  "model_path": "./final_model_release/SCAMPS_TSCAN.pth",
+  "config_file": "./configs/tcc_configs/SCAMPS/TCC_TSCAN.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T21:29:38",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9603,
+  "n_invalid_events": 731,
+  "coverage_rate": 0.9292626282175344,
+  "global_metrics": {
+    "n_valid_events": 9603,
+    "MAE": 23.388893770175986,
+    "MAE_std_err": 0.15568152451299339,
+    "RMSE": 27.9246439175296,
+    "RMSE_std_err": 0.15568152451299339,
+    "MAPE": 26.042354191176095,
+    "MAPE_std_err": 0.165307786750521,
+    "Pearson": -0.0030641550129334567,
+    "Pearson_std_err": 0.010205627818935645,
+    "median_abs_error": 21.90234375,
+    "std_abs_error": 15.255995088103752
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/TSCAN_SCAMPS/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/TSCAN_SCAMPS/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/TSCAN_SCAMPS/group_metrics.csv"
+  }
+}

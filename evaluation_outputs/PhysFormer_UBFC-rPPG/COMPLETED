@@ -1,0 +1,6 @@
+completed_at=2026-05-17T23:41:37
+experiment_id=PhysFormer_UBFC-rPPG
+model_name=PhysFormer
+pretrain_dataset=UBFC-rPPG
+n_total_events=10334
+n_valid_events=9614

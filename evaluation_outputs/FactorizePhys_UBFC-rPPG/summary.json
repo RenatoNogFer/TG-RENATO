@@ -1,0 +1,33 @@
+{
+  "experiment_id": "FactorizePhys_UBFC-rPPG",
+  "model_name": "FactorizePhys",
+  "pretrain_dataset": "UBFC-rPPG",
+  "checkpoint_name": "UBFC-rPPG_FactorizePhys_FSAM_Res.pth",
+  "model_path": "./final_model_release/UBFC-rPPG_FactorizePhys_FSAM_Res.pth",
+  "config_file": "./configs/tcc_configs/UBFC-rPPG/TCC_FactorizePhys.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T22:52:18",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9614,
+  "n_invalid_events": 720,
+  "coverage_rate": 0.9303270756725373,
+  "global_metrics": {
+    "n_valid_events": 9614,
+    "MAE": 16.241597133737258,
+    "MAE_std_err": 0.12070459130147802,
+    "RMSE": 20.09630802161794,
+    "RMSE_std_err": 0.12070459130147802,
+    "MAPE": 18.616718769473255,
+    "MAPE_std_err": 0.14296943213515345,
+    "Pearson": -0.013083577895903396,
+    "Pearson_std_err": 0.010198961314795297,
+    "median_abs_error": 13.984375,
+    "std_abs_error": 11.835206742812872
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/FactorizePhys_UBFC-rPPG/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/FactorizePhys_UBFC-rPPG/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/FactorizePhys_UBFC-rPPG/group_metrics.csv"
+  }
+}

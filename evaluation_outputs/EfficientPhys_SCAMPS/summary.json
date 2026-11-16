@@ -1,0 +1,33 @@
+{
+  "experiment_id": "EfficientPhys_SCAMPS",
+  "model_name": "EfficientPhys",
+  "pretrain_dataset": "SCAMPS",
+  "checkpoint_name": "SCAMPS_EfficientPhys.pth",
+  "model_path": "./final_model_release/SCAMPS_EfficientPhys.pth",
+  "config_file": "./configs/tcc_configs/SCAMPS/TCC_EfficientPhys.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T18:33:07",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9603,
+  "n_invalid_events": 731,
+  "coverage_rate": 0.9292626282175344,
+  "global_metrics": {
+    "n_valid_events": 9603,
+    "MAE": 25.098587762287828,
+    "MAE_std_err": 0.1710465951334664,
+    "RMSE": 30.18101191907262,
+    "RMSE_std_err": 0.1710465951334664,
+    "MAPE": 27.90682042661376,
+    "MAPE_std_err": 0.17935890022091655,
+    "Pearson": 0.07325387566885345,
+    "Pearson_std_err": 0.010178256403542698,
+    "median_abs_error": 23.59765625,
+    "std_abs_error": 16.76169361365191
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/EfficientPhys_SCAMPS/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/EfficientPhys_SCAMPS/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/EfficientPhys_SCAMPS/group_metrics.csv"
+  }
+}

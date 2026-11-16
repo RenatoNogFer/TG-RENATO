@@ -1,0 +1,33 @@
+{
+  "experiment_id": "DeepPhys_PURE",
+  "model_name": "DeepPhys",
+  "pretrain_dataset": "PURE",
+  "checkpoint_name": "PURE_DeepPhys.pth",
+  "model_path": "final_model_release/PURE_DeepPhys.pth",
+  "config_file": "./configs/tcc_configs/PURE/TCC_DeepPhys.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T13:25:41",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9603,
+  "n_invalid_events": 731,
+  "coverage_rate": 0.9292626282175344,
+  "global_metrics": {
+    "n_valid_events": 9603,
+    "MAE": 28.839769717145682,
+    "MAE_std_err": 0.16292912437804055,
+    "RMSE": 32.964414008357814,
+    "RMSE_std_err": 0.16292912437804055,
+    "MAPE": 32.02346229321826,
+    "MAPE_std_err": 0.16821093965865452,
+    "Pearson": -0.061906976076261326,
+    "Pearson_std_err": 0.010186100464554726,
+    "median_abs_error": 29.14453125,
+    "std_abs_error": 15.966222896365435
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/DeepPhys_PURE/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/DeepPhys_PURE/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/DeepPhys_PURE/group_metrics.csv"
+  }
+}

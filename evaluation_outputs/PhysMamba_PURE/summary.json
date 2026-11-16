@@ -1,0 +1,33 @@
+{
+  "experiment_id": "PhysMamba_PURE",
+  "model_name": "PhysMamba",
+  "pretrain_dataset": "PURE",
+  "checkpoint_name": "PURE_PhysMamba_DiffNormalized.pth",
+  "model_path": "./final_model_release/PURE_PhysMamba_DiffNormalized.pth",
+  "config_file": "./configs/tcc_configs/PURE/TCC_PhysMamba.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T15:57:04",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9616,
+  "n_invalid_events": 718,
+  "coverage_rate": 0.9305206115734469,
+  "global_metrics": {
+    "n_valid_events": 9616,
+    "MAE": 19.604085557274335,
+    "MAE_std_err": 0.13911808354613922,
+    "RMSE": 23.883607500194156,
+    "RMSE_std_err": 0.13911808354613922,
+    "MAPE": 21.90496577635955,
+    "MAPE_std_err": 0.14876634947428452,
+    "Pearson": -0.024888778430101566,
+    "Pearson_std_err": 0.01019561405430172,
+    "median_abs_error": 17.626953125,
+    "std_abs_error": 13.642086962279572
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/PhysMamba_PURE/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/PhysMamba_PURE/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/PhysMamba_PURE/group_metrics.csv"
+  }
+}

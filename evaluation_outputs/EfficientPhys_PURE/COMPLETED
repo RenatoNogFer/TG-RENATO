@@ -1,0 +1,6 @@
+completed_at=2026-05-17T13:53:47
+experiment_id=EfficientPhys_PURE
+model_name=EfficientPhys
+pretrain_dataset=PURE
+n_total_events=10334
+n_valid_events=9603

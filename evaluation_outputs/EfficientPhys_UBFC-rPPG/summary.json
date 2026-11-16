@@ -1,0 +1,33 @@
+{
+  "experiment_id": "EfficientPhys_UBFC-rPPG",
+  "model_name": "EfficientPhys",
+  "pretrain_dataset": "UBFC-rPPG",
+  "checkpoint_name": "UBFC-rPPG_EfficientPhys.pth",
+  "model_path": "./final_model_release/UBFC-rPPG_EfficientPhys.pth",
+  "config_file": "./configs/tcc_configs/UBFC-rPPG/TCC_EfficientPhys.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T22:27:00",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9603,
+  "n_invalid_events": 731,
+  "coverage_rate": 0.9292626282175344,
+  "global_metrics": {
+    "n_valid_events": 9603,
+    "MAE": 23.859638996277205,
+    "MAE_std_err": 0.15160572565487654,
+    "RMSE": 28.106948749618947,
+    "RMSE_std_err": 0.15160572565487654,
+    "MAPE": 26.59574033134626,
+    "MAPE_std_err": 0.16040273703444222,
+    "Pearson": -0.02142246389845748,
+    "Pearson_std_err": 0.010203333656737352,
+    "median_abs_error": 22.83984375,
+    "std_abs_error": 14.85658759544177
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/EfficientPhys_UBFC-rPPG/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/EfficientPhys_UBFC-rPPG/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/EfficientPhys_UBFC-rPPG/group_metrics.csv"
+  }
+}

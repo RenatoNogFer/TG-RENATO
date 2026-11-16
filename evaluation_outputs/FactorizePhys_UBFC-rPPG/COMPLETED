@@ -1,0 +1,6 @@
+completed_at=2026-05-17T22:52:18
+experiment_id=FactorizePhys_UBFC-rPPG
+model_name=FactorizePhys
+pretrain_dataset=UBFC-rPPG
+n_total_events=10334
+n_valid_events=9614

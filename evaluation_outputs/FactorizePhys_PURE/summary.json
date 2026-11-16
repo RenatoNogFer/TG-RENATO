@@ -1,0 +1,33 @@
+{
+  "experiment_id": "FactorizePhys_PURE",
+  "model_name": "FactorizePhys",
+  "pretrain_dataset": "PURE",
+  "checkpoint_name": "PURE_FactorizePhys_FSAM_Res.pth",
+  "model_path": "./final_model_release/PURE_FactorizePhys_FSAM_Res.pth",
+  "config_file": "./configs/tcc_configs/PURE/TCC_FactorizePhys.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T14:22:20",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9614,
+  "n_invalid_events": 720,
+  "coverage_rate": 0.9303270756725373,
+  "global_metrics": {
+    "n_valid_events": 9614,
+    "MAE": 16.076698450826918,
+    "MAE_std_err": 0.12197767329426111,
+    "RMSE": 20.037530774216542,
+    "RMSE_std_err": 0.12197767329426111,
+    "MAPE": 18.128129915853478,
+    "MAPE_std_err": 0.13619475963175098,
+    "Pearson": 0.0017070205851474063,
+    "Pearson_std_err": 0.010199819495277268,
+    "median_abs_error": 13.8984375,
+    "std_abs_error": 11.960033714369468
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/FactorizePhys_PURE/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/FactorizePhys_PURE/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/FactorizePhys_PURE/group_metrics.csv"
+  }
+}

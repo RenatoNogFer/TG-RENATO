@@ -1,0 +1,6 @@
+completed_at=2026-05-17T14:52:16
+experiment_id=iBVPNet_PURE
+model_name=iBVPNet
+pretrain_dataset=PURE
+n_total_events=10334
+n_valid_events=9614

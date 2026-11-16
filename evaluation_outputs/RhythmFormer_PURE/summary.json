@@ -1,0 +1,33 @@
+{
+  "experiment_id": "RhythmFormer_PURE",
+  "model_name": "RhythmFormer",
+  "pretrain_dataset": "PURE",
+  "checkpoint_name": "PURE_RhythmFormer.pth",
+  "model_path": "./final_model_release/PURE_RhythmFormer.pth",
+  "config_file": "./configs/tcc_configs/PURE/TCC_RhythmFormer.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T16:57:43",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9614,
+  "n_invalid_events": 720,
+  "coverage_rate": 0.9303270756725373,
+  "global_metrics": {
+    "n_valid_events": 9614,
+    "MAE": 18.389210233773664,
+    "MAE_std_err": 0.1455079774316516,
+    "RMSE": 23.274796570257575,
+    "RMSE_std_err": 0.1455079774316516,
+    "MAPE": 21.27823714314561,
+    "MAPE_std_err": 0.1785069780644772,
+    "Pearson": -0.06935460796593912,
+    "Pearson_std_err": 0.010175273870054655,
+    "median_abs_error": 15.203125,
+    "std_abs_error": 14.267203733210923
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/RhythmFormer_PURE/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/RhythmFormer_PURE/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/RhythmFormer_PURE/group_metrics.csv"
+  }
+}

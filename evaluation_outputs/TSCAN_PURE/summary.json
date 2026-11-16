@@ -1,0 +1,33 @@
+{
+  "experiment_id": "TSCAN_PURE",
+  "model_name": "TSCAN",
+  "pretrain_dataset": "PURE",
+  "checkpoint_name": "PURE_TSCAN.pth",
+  "model_path": "./final_model_release/PURE_TSCAN.pth",
+  "config_file": "./configs/tcc_configs/PURE/TCC_TSCAN.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T17:31:51",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9603,
+  "n_invalid_events": 731,
+  "coverage_rate": 0.9292626282175344,
+  "global_metrics": {
+    "n_valid_events": 9603,
+    "MAE": 25.895976110980943,
+    "MAE_std_err": 0.16221556343679394,
+    "RMSE": 30.385750854804915,
+    "RMSE_std_err": 0.16221556343679394,
+    "MAPE": 28.764207402383263,
+    "MAPE_std_err": 0.16902587163015198,
+    "Pearson": -0.05899361759674581,
+    "Pearson_std_err": 0.01018790111558859,
+    "median_abs_error": 25.234375,
+    "std_abs_error": 15.89629756483509
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/TSCAN_PURE/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/TSCAN_PURE/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/TSCAN_PURE/group_metrics.csv"
+  }
+}

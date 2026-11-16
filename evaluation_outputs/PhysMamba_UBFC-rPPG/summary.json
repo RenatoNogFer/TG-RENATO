@@ -1,0 +1,33 @@
+{
+  "experiment_id": "PhysMamba_UBFC-rPPG",
+  "model_name": "PhysMamba",
+  "pretrain_dataset": "UBFC-rPPG",
+  "checkpoint_name": "UBFC-rPPG_PhysMamba_DiffNormalized.pth",
+  "model_path": "./final_model_release/UBFC-rPPG_PhysMamba_DiffNormalized.pth",
+  "config_file": "./configs/tcc_configs/UBFC-rPPG/TCC_PhysMamba.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-18T00:16:44",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9616,
+  "n_invalid_events": 718,
+  "coverage_rate": 0.9305206115734469,
+  "global_metrics": {
+    "n_valid_events": 9616,
+    "MAE": 15.724848234712978,
+    "MAE_std_err": 0.12000494672033583,
+    "RMSE": 19.640587274292987,
+    "RMSE_std_err": 0.12000494672033583,
+    "MAPE": 17.87651055865331,
+    "MAPE_std_err": 0.13671480623415957,
+    "Pearson": -0.01876055642809172,
+    "Pearson_std_err": 0.010196978434982892,
+    "median_abs_error": 13.4375,
+    "std_abs_error": 11.767829726604807
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/PhysMamba_UBFC-rPPG/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/PhysMamba_UBFC-rPPG/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/PhysMamba_UBFC-rPPG/group_metrics.csv"
+  }
+}

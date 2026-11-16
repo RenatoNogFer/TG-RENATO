@@ -1,0 +1,33 @@
+{
+  "experiment_id": "TSCAN_UBFC-rPPG",
+  "model_name": "TSCAN",
+  "pretrain_dataset": "UBFC-rPPG",
+  "checkpoint_name": "UBFC-rPPG_TSCAN.pth",
+  "model_path": "./final_model_release/UBFC-rPPG_TSCAN.pth",
+  "config_file": "./configs/tcc_configs/UBFC-rPPG/TCC_TSCAN.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-18T02:04:10",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9603,
+  "n_invalid_events": 731,
+  "coverage_rate": 0.9292626282175344,
+  "global_metrics": {
+    "n_valid_events": 9603,
+    "MAE": 24.937039938691033,
+    "MAE_std_err": 0.15660367980636386,
+    "RMSE": 29.28082606961153,
+    "RMSE_std_err": 0.15660367980636386,
+    "MAPE": 27.75566911019858,
+    "MAPE_std_err": 0.16468941880898033,
+    "Pearson": -0.019358097969314245,
+    "Pearson_std_err": 0.010203763333818915,
+    "median_abs_error": 24.28515625,
+    "std_abs_error": 15.346361601857634
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/TSCAN_UBFC-rPPG/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/TSCAN_UBFC-rPPG/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/TSCAN_UBFC-rPPG/group_metrics.csv"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "experiment_id": "PhysFormer_UBFC-rPPG",
+  "model_name": "PhysFormer",
+  "pretrain_dataset": "UBFC-rPPG",
+  "checkpoint_name": "UBFC-rPPG_PhysFormer_DiffNormalized.pth",
+  "model_path": "./final_model_release/UBFC-rPPG_PhysFormer_DiffNormalized.pth",
+  "config_file": "./configs/tcc_configs/UBFC-rPPG/TCC_PhysFormer.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T23:41:37",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9614,
+  "n_invalid_events": 720,
+  "coverage_rate": 0.9303270756725373,
+  "global_metrics": {
+    "n_valid_events": 9614,
+    "MAE": 13.814651403552112,
+    "MAE_std_err": 0.10524431068525014,
+    "RMSE": 17.24333975348732,
+    "RMSE_std_err": 0.10524431068525014,
+    "MAPE": 15.939908394112667,
+    "MAPE_std_err": 0.12737618041852505,
+    "Pearson": -0.0124475939402914,
+    "Pearson_std_err": 0.010199044131022662,
+    "median_abs_error": 11.6796875,
+    "std_abs_error": 10.319310657816818
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/PhysFormer_UBFC-rPPG/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/PhysFormer_UBFC-rPPG/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/PhysFormer_UBFC-rPPG/group_metrics.csv"
+  }
+}

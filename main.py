@@ -12,6 +12,8 @@ from neural_methods import trainer
 from unsupervised_methods.unsupervised_predictor import unsupervised_predict
 from torch.utils.data import DataLoader
 
+from dataset.data_loader.CustomDatasetLoader import CustomDatasetLoader
+
 RANDOM_SEED = 100
 torch.manual_seed(RANDOM_SEED)
 torch.cuda.manual_seed(RANDOM_SEED)
@@ -156,6 +158,8 @@ if __name__ == "__main__":
         # train_loader
         if config.TRAIN.DATA.DATASET == "UBFC-rPPG":
             train_loader = data_loader.UBFCrPPGLoader.UBFCrPPGLoader
+        elif config.TRAIN.DATA.DATASET == "CustomDataset": ### ADICIONADO AQUI
+            train_loader = CustomDatasetLoader
         elif config.TRAIN.DATA.DATASET == "PURE":
             train_loader = data_loader.PURELoader.PURELoader
         elif config.TRAIN.DATA.DATASET == "SCAMPS":
@@ -203,6 +207,8 @@ if __name__ == "__main__":
         # valid_loader
         if config.VALID.DATA.DATASET == "UBFC-rPPG":
             valid_loader = data_loader.UBFCrPPGLoader.UBFCrPPGLoader
+        elif config.VALID.DATA.DATASET == "CustomDataset": ### ADICIONADO AQUI
+            valid_loader = CustomDatasetLoader
         elif config.VALID.DATA.DATASET == "PURE":
             valid_loader = data_loader.PURELoader.PURELoader
         elif config.VALID.DATA.DATASET == "SCAMPS":
@@ -252,6 +258,8 @@ if __name__ == "__main__":
         # test_loader
         if config.TEST.DATA.DATASET == "UBFC-rPPG":
             test_loader = data_loader.UBFCrPPGLoader.UBFCrPPGLoader
+        elif config.TEST.DATA.DATASET == "CustomDataset": ### ADICIONADO AQUI
+            test_loader = CustomDatasetLoader
         elif config.TEST.DATA.DATASET == "PURE":
             test_loader = data_loader.PURELoader.PURELoader
         elif config.TEST.DATA.DATASET == "SCAMPS":
@@ -302,6 +310,8 @@ if __name__ == "__main__":
         # unsupervised method dataloader
         if config.UNSUPERVISED.DATA.DATASET == "UBFC-rPPG":
             unsupervised_loader = data_loader.UBFCrPPGLoader.UBFCrPPGLoader
+        elif config.UNSUPERVISED.DATA.DATASET == "CustomDataset": ### ADICIONADO AQUI
+            unsupervised_loader = CustomDatasetLoader
         elif config.UNSUPERVISED.DATA.DATASET == "PURE":
             unsupervised_loader = data_loader.PURELoader.PURELoader
         elif config.UNSUPERVISED.DATA.DATASET == "SCAMPS":

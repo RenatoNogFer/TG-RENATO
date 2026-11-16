@@ -1,0 +1,33 @@
+{
+  "experiment_id": "iBVPNet_PURE",
+  "model_name": "iBVPNet",
+  "pretrain_dataset": "PURE",
+  "checkpoint_name": "PURE_iBVPNet.pth",
+  "model_path": "./final_model_release/PURE_iBVPNet.pth",
+  "config_file": "./configs/tcc_configs/PURE/TCC_iBVPNet.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T14:52:16",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9614,
+  "n_invalid_events": 720,
+  "coverage_rate": 0.9303270756725373,
+  "global_metrics": {
+    "n_valid_events": 9614,
+    "MAE": 24.618634364598503,
+    "MAE_std_err": 0.13074581858754808,
+    "RMSE": 27.7565016472702,
+    "RMSE_std_err": 0.13074581858754808,
+    "MAPE": 27.14587067158593,
+    "MAPE_std_err": 0.13234421360034224,
+    "Pearson": 0.0007982590489984953,
+    "Pearson_std_err": 0.010199831106278036,
+    "median_abs_error": 24.83984375,
+    "std_abs_error": 12.819759191073867
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/iBVPNet_PURE/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/iBVPNet_PURE/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/iBVPNet_PURE/group_metrics.csv"
+  }
+}

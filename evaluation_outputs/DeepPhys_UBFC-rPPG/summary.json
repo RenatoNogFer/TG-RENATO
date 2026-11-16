@@ -1,0 +1,33 @@
+{
+  "experiment_id": "DeepPhys_UBFC-rPPG",
+  "model_name": "DeepPhys",
+  "pretrain_dataset": "UBFC-rPPG",
+  "checkpoint_name": "UBFC-rPPG_DeepPhys.pth",
+  "model_path": "./final_model_release/UBFC-rPPG_DeepPhys.pth",
+  "config_file": "./configs/tcc_configs/UBFC-rPPG/TCC_DeepPhys.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T22:01:57",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9603,
+  "n_invalid_events": 731,
+  "coverage_rate": 0.9292626282175344,
+  "global_metrics": {
+    "n_valid_events": 9603,
+    "MAE": 28.361985675049464,
+    "MAE_std_err": 0.16111143635113828,
+    "RMSE": 32.46022632974851,
+    "RMSE_std_err": 0.16111143635113828,
+    "MAPE": 31.445377937742272,
+    "MAPE_std_err": 0.1656892640425988,
+    "Pearson": -0.05774476697650216,
+    "Pearson_std_err": 0.010188646322893645,
+    "median_abs_error": 28.38671875,
+    "std_abs_error": 15.788098743888938
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/DeepPhys_UBFC-rPPG/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/DeepPhys_UBFC-rPPG/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/DeepPhys_UBFC-rPPG/group_metrics.csv"
+  }
+}

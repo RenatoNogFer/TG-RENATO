@@ -1,0 +1,33 @@
+{
+  "experiment_id": "PhysFormer_SCAMPS",
+  "model_name": "PhysFormer",
+  "pretrain_dataset": "SCAMPS",
+  "checkpoint_name": "SCAMPS_PhysFormer_DiffNormalized.pth",
+  "model_path": "./final_model_release/SCAMPS_PhysFormer_DiffNormalized.pth",
+  "config_file": "./configs/tcc_configs/SCAMPS/TCC_PhysFormer.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T19:52:46",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9614,
+  "n_invalid_events": 720,
+  "coverage_rate": 0.9303270756725373,
+  "global_metrics": {
+    "n_valid_events": 9614,
+    "MAE": 19.950355194898066,
+    "MAE_std_err": 0.14361119226186886,
+    "RMSE": 24.41920323142835,
+    "RMSE_std_err": 0.14361119226186886,
+    "MAPE": 23.416947513808996,
+    "MAPE_std_err": 0.18323775567593392,
+    "Pearson": -0.026529393873194532,
+    "Pearson_std_err": 0.010196244357976402,
+    "median_abs_error": 17.83203125,
+    "std_abs_error": 14.081222036996813
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/PhysFormer_SCAMPS/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/PhysFormer_SCAMPS/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/PhysFormer_SCAMPS/group_metrics.csv"
+  }
+}

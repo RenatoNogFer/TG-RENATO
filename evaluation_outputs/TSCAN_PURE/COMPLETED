@@ -1,0 +1,6 @@
+completed_at=2026-05-17T17:31:51
+experiment_id=TSCAN_PURE
+model_name=TSCAN
+pretrain_dataset=PURE
+n_total_events=10334
+n_valid_events=9603

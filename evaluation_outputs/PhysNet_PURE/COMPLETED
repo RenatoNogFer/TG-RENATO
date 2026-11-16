@@ -1,0 +1,6 @@
+completed_at=2026-05-17T16:18:25
+experiment_id=PhysNet_PURE
+model_name=PhysNet
+pretrain_dataset=PURE
+n_total_events=10334
+n_valid_events=9616

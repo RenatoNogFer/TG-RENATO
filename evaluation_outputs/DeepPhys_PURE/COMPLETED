@@ -1,0 +1,6 @@
+completed_at=2026-05-17T13:25:41
+experiment_id=DeepPhys_PURE
+model_name=DeepPhys
+pretrain_dataset=PURE
+n_total_events=10334
+n_valid_events=9603

@@ -1,0 +1,475 @@
+=== INÍCIO DA BATERIA DE TESTES: dom 17 mai 2026 12:48:50 -03 ===
+Configurações serão lidas de: ./configs/tcc_configs
+Resultados serão salvos em: ./evaluation_outputs
+--------------------------------------------------------
+
+########################################################
+>>> EXPERIMENTO: DeepPhys_PURE
+>>> MODELO/TÉCNICA: DeepPhys
+>>> DATASET PRÉ-TREINO: PURE
+>>> CONFIG: ./configs/tcc_configs/PURE/TCC_DeepPhys.yaml
+>>> DATA: dom 17 mai 2026 12:48:50 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/DeepPhys_PURE
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=DeepPhys_PURE
+[INFO] TCC_MODEL_NAME=DeepPhys
+[INFO] TCC_PRETRAIN_DATASET=PURE
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/DeepPhys_PURE
+[INFO] Log individual: ./logs_tcc/DeepPhys_PURE.log
+[SUCESSO] Finalizado: DeepPhys_PURE
+
+########################################################
+>>> EXPERIMENTO: EfficientPhys_PURE
+>>> MODELO/TÉCNICA: EfficientPhys
+>>> DATASET PRÉ-TREINO: PURE
+>>> CONFIG: ./configs/tcc_configs/PURE/TCC_EfficientPhys.yaml
+>>> DATA: dom 17 mai 2026 13:25:58 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/EfficientPhys_PURE
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=EfficientPhys_PURE
+[INFO] TCC_MODEL_NAME=EfficientPhys
+[INFO] TCC_PRETRAIN_DATASET=PURE
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/EfficientPhys_PURE
+[INFO] Log individual: ./logs_tcc/EfficientPhys_PURE.log
+[SUCESSO] Finalizado: EfficientPhys_PURE
+
+########################################################
+>>> EXPERIMENTO: FactorizePhys_PURE
+>>> MODELO/TÉCNICA: FactorizePhys
+>>> DATASET PRÉ-TREINO: PURE
+>>> CONFIG: ./configs/tcc_configs/PURE/TCC_FactorizePhys.yaml
+>>> DATA: dom 17 mai 2026 13:54:01 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/FactorizePhys_PURE
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=FactorizePhys_PURE
+[INFO] TCC_MODEL_NAME=FactorizePhys
+[INFO] TCC_PRETRAIN_DATASET=PURE
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/FactorizePhys_PURE
+[INFO] Log individual: ./logs_tcc/FactorizePhys_PURE.log
+[SUCESSO] Finalizado: FactorizePhys_PURE
+
+########################################################
+>>> EXPERIMENTO: iBVPNet_PURE
+>>> MODELO/TÉCNICA: iBVPNet
+>>> DATASET PRÉ-TREINO: PURE
+>>> CONFIG: ./configs/tcc_configs/PURE/TCC_iBVPNet.yaml
+>>> DATA: dom 17 mai 2026 14:22:35 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/iBVPNet_PURE
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=iBVPNet_PURE
+[INFO] TCC_MODEL_NAME=iBVPNet
+[INFO] TCC_PRETRAIN_DATASET=PURE
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/iBVPNet_PURE
+[INFO] Log individual: ./logs_tcc/iBVPNet_PURE.log
+[SUCESSO] Finalizado: iBVPNet_PURE
+
+########################################################
+>>> EXPERIMENTO: PhysFormer_PURE
+>>> MODELO/TÉCNICA: PhysFormer
+>>> DATASET PRÉ-TREINO: PURE
+>>> CONFIG: ./configs/tcc_configs/PURE/TCC_PhysFormer.yaml
+>>> DATA: dom 17 mai 2026 14:52:30 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/PhysFormer_PURE
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=PhysFormer_PURE
+[INFO] TCC_MODEL_NAME=PhysFormer
+[INFO] TCC_PRETRAIN_DATASET=PURE
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/PhysFormer_PURE
+[INFO] Log individual: ./logs_tcc/PhysFormer_PURE.log
+[SUCESSO] Finalizado: PhysFormer_PURE
+
+########################################################
+>>> EXPERIMENTO: PhysMamba_PURE
+>>> MODELO/TÉCNICA: PhysMamba
+>>> DATASET PRÉ-TREINO: PURE
+>>> CONFIG: ./configs/tcc_configs/PURE/TCC_PhysMamba.yaml
+>>> DATA: dom 17 mai 2026 15:25:33 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/PhysMamba_PURE
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=PhysMamba_PURE
+[INFO] TCC_MODEL_NAME=PhysMamba
+[INFO] TCC_PRETRAIN_DATASET=PURE
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/PhysMamba_PURE
+[INFO] Log individual: ./logs_tcc/PhysMamba_PURE.log
+[SUCESSO] Finalizado: PhysMamba_PURE
+
+########################################################
+>>> EXPERIMENTO: PhysNet_PURE
+>>> MODELO/TÉCNICA: PhysNet
+>>> DATASET PRÉ-TREINO: PURE
+>>> CONFIG: ./configs/tcc_configs/PURE/TCC_PhysNet.yaml
+>>> DATA: dom 17 mai 2026 15:57:18 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/PhysNet_PURE
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=PhysNet_PURE
+[INFO] TCC_MODEL_NAME=PhysNet
+[INFO] TCC_PRETRAIN_DATASET=PURE
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/PhysNet_PURE
+[INFO] Log individual: ./logs_tcc/PhysNet_PURE.log
+[SUCESSO] Finalizado: PhysNet_PURE
+
+########################################################
+>>> EXPERIMENTO: RhythmFormer_PURE
+>>> MODELO/TÉCNICA: RhythmFormer
+>>> DATASET PRÉ-TREINO: PURE
+>>> CONFIG: ./configs/tcc_configs/PURE/TCC_RhythmFormer.yaml
+>>> DATA: dom 17 mai 2026 16:18:39 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/RhythmFormer_PURE
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=RhythmFormer_PURE
+[INFO] TCC_MODEL_NAME=RhythmFormer
+[INFO] TCC_PRETRAIN_DATASET=PURE
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/RhythmFormer_PURE
+[INFO] Log individual: ./logs_tcc/RhythmFormer_PURE.log
+[SUCESSO] Finalizado: RhythmFormer_PURE
+
+########################################################
+>>> EXPERIMENTO: TSCAN_PURE
+>>> MODELO/TÉCNICA: TSCAN
+>>> DATASET PRÉ-TREINO: PURE
+>>> CONFIG: ./configs/tcc_configs/PURE/TCC_TSCAN.yaml
+>>> DATA: dom 17 mai 2026 16:57:57 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/TSCAN_PURE
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=TSCAN_PURE
+[INFO] TCC_MODEL_NAME=TSCAN
+[INFO] TCC_PRETRAIN_DATASET=PURE
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/TSCAN_PURE
+[INFO] Log individual: ./logs_tcc/TSCAN_PURE.log
+[SUCESSO] Finalizado: TSCAN_PURE
+
+########################################################
+>>> EXPERIMENTO: DeepPhys_SCAMPS
+>>> MODELO/TÉCNICA: DeepPhys
+>>> DATASET PRÉ-TREINO: SCAMPS
+>>> CONFIG: ./configs/tcc_configs/SCAMPS/TCC_DeepPhys.yaml
+>>> DATA: dom 17 mai 2026 17:32:06 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/DeepPhys_SCAMPS
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=DeepPhys_SCAMPS
+[INFO] TCC_MODEL_NAME=DeepPhys
+[INFO] TCC_PRETRAIN_DATASET=SCAMPS
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/DeepPhys_SCAMPS
+[INFO] Log individual: ./logs_tcc/DeepPhys_SCAMPS.log
+[SUCESSO] Finalizado: DeepPhys_SCAMPS
+
+########################################################
+>>> EXPERIMENTO: EfficientPhys_SCAMPS
+>>> MODELO/TÉCNICA: EfficientPhys
+>>> DATASET PRÉ-TREINO: SCAMPS
+>>> CONFIG: ./configs/tcc_configs/SCAMPS/TCC_EfficientPhys.yaml
+>>> DATA: dom 17 mai 2026 18:06:27 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/EfficientPhys_SCAMPS
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=EfficientPhys_SCAMPS
+[INFO] TCC_MODEL_NAME=EfficientPhys
+[INFO] TCC_PRETRAIN_DATASET=SCAMPS
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/EfficientPhys_SCAMPS
+[INFO] Log individual: ./logs_tcc/EfficientPhys_SCAMPS.log
+[SUCESSO] Finalizado: EfficientPhys_SCAMPS
+
+########################################################
+>>> EXPERIMENTO: FactorizePhys_SCAMPS
+>>> MODELO/TÉCNICA: FactorizePhys
+>>> DATASET PRÉ-TREINO: SCAMPS
+>>> CONFIG: ./configs/tcc_configs/SCAMPS/TCC_FactorizePhys.yaml
+>>> DATA: dom 17 mai 2026 18:33:22 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/FactorizePhys_SCAMPS
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=FactorizePhys_SCAMPS
+[INFO] TCC_MODEL_NAME=FactorizePhys
+[INFO] TCC_PRETRAIN_DATASET=SCAMPS
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/FactorizePhys_SCAMPS
+[INFO] Log individual: ./logs_tcc/FactorizePhys_SCAMPS.log
+[SUCESSO] Finalizado: FactorizePhys_SCAMPS
+
+########################################################
+>>> EXPERIMENTO: iBVPNet_SCAMPS
+>>> MODELO/TÉCNICA: iBVPNet
+>>> DATASET PRÉ-TREINO: SCAMPS
+>>> CONFIG: ./configs/tcc_configs/SCAMPS/TCC_iBVPNet.yaml
+>>> DATA: dom 17 mai 2026 19:01:04 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/iBVPNet_SCAMPS
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=iBVPNet_SCAMPS
+[INFO] TCC_MODEL_NAME=iBVPNet
+[INFO] TCC_PRETRAIN_DATASET=SCAMPS
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/iBVPNet_SCAMPS
+[INFO] Log individual: ./logs_tcc/iBVPNet_SCAMPS.log
+[FALHA] Erro ao executar: iBVPNet_SCAMPS
+[INFO] O experimento será reexecutado do zero na próxima bateria.
+[INFO] Verifique o log: ./logs_tcc/iBVPNet_SCAMPS.log
+
+########################################################
+>>> EXPERIMENTO: PhysFormer_SCAMPS
+>>> MODELO/TÉCNICA: PhysFormer
+>>> DATASET PRÉ-TREINO: SCAMPS
+>>> CONFIG: ./configs/tcc_configs/SCAMPS/TCC_PhysFormer.yaml
+>>> DATA: dom 17 mai 2026 19:17:36 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/PhysFormer_SCAMPS
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=PhysFormer_SCAMPS
+[INFO] TCC_MODEL_NAME=PhysFormer
+[INFO] TCC_PRETRAIN_DATASET=SCAMPS
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/PhysFormer_SCAMPS
+[INFO] Log individual: ./logs_tcc/PhysFormer_SCAMPS.log
+[SUCESSO] Finalizado: PhysFormer_SCAMPS
+
+########################################################
+>>> EXPERIMENTO: PhysMamba_SCAMPS
+>>> MODELO/TÉCNICA: PhysMamba
+>>> DATASET PRÉ-TREINO: SCAMPS
+>>> CONFIG: ./configs/tcc_configs/SCAMPS/TCC_PhysMamba.yaml
+>>> DATA: dom 17 mai 2026 19:53:01 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/PhysMamba_SCAMPS
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=PhysMamba_SCAMPS
+[INFO] TCC_MODEL_NAME=PhysMamba
+[INFO] TCC_PRETRAIN_DATASET=SCAMPS
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/PhysMamba_SCAMPS
+[INFO] Log individual: ./logs_tcc/PhysMamba_SCAMPS.log
+[FALHA] Erro ao executar: PhysMamba_SCAMPS
+[INFO] O experimento será reexecutado do zero na próxima bateria.
+[INFO] Verifique o log: ./logs_tcc/PhysMamba_SCAMPS.log
+
+########################################################
+>>> EXPERIMENTO: PhysNet_SCAMPS
+>>> MODELO/TÉCNICA: PhysNet
+>>> DATASET PRÉ-TREINO: SCAMPS
+>>> CONFIG: ./configs/tcc_configs/SCAMPS/TCC_PhysNet.yaml
+>>> DATA: dom 17 mai 2026 20:13:23 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/PhysNet_SCAMPS
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=PhysNet_SCAMPS
+[INFO] TCC_MODEL_NAME=PhysNet
+[INFO] TCC_PRETRAIN_DATASET=SCAMPS
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/PhysNet_SCAMPS
+[INFO] Log individual: ./logs_tcc/PhysNet_SCAMPS.log
+[SUCESSO] Finalizado: PhysNet_SCAMPS
+
+########################################################
+>>> EXPERIMENTO: RhythmFormer_SCAMPS
+>>> MODELO/TÉCNICA: RhythmFormer
+>>> DATASET PRÉ-TREINO: SCAMPS
+>>> CONFIG: ./configs/tcc_configs/SCAMPS/TCC_RhythmFormer.yaml
+>>> DATA: dom 17 mai 2026 20:34:25 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/RhythmFormer_SCAMPS
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=RhythmFormer_SCAMPS
+[INFO] TCC_MODEL_NAME=RhythmFormer
+[INFO] TCC_PRETRAIN_DATASET=SCAMPS
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/RhythmFormer_SCAMPS
+[INFO] Log individual: ./logs_tcc/RhythmFormer_SCAMPS.log
+[FALHA] Erro ao executar: RhythmFormer_SCAMPS
+[INFO] O experimento será reexecutado do zero na próxima bateria.
+[INFO] Verifique o log: ./logs_tcc/RhythmFormer_SCAMPS.log
+
+########################################################
+>>> EXPERIMENTO: TSCAN_SCAMPS
+>>> MODELO/TÉCNICA: TSCAN
+>>> DATASET PRÉ-TREINO: SCAMPS
+>>> CONFIG: ./configs/tcc_configs/SCAMPS/TCC_TSCAN.yaml
+>>> DATA: dom 17 mai 2026 20:57:50 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/TSCAN_SCAMPS
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=TSCAN_SCAMPS
+[INFO] TCC_MODEL_NAME=TSCAN
+[INFO] TCC_PRETRAIN_DATASET=SCAMPS
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/TSCAN_SCAMPS
+[INFO] Log individual: ./logs_tcc/TSCAN_SCAMPS.log
+[SUCESSO] Finalizado: TSCAN_SCAMPS
+
+########################################################
+>>> EXPERIMENTO: DeepPhys_UBFC-rPPG
+>>> MODELO/TÉCNICA: DeepPhys
+>>> DATASET PRÉ-TREINO: UBFC-rPPG
+>>> CONFIG: ./configs/tcc_configs/UBFC-rPPG/TCC_DeepPhys.yaml
+>>> DATA: dom 17 mai 2026 21:29:53 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/DeepPhys_UBFC-rPPG
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=DeepPhys_UBFC-rPPG
+[INFO] TCC_MODEL_NAME=DeepPhys
+[INFO] TCC_PRETRAIN_DATASET=UBFC-rPPG
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/DeepPhys_UBFC-rPPG
+[INFO] Log individual: ./logs_tcc/DeepPhys_UBFC-rPPG.log
+[SUCESSO] Finalizado: DeepPhys_UBFC-rPPG
+
+########################################################
+>>> EXPERIMENTO: EfficientPhys_UBFC-rPPG
+>>> MODELO/TÉCNICA: EfficientPhys
+>>> DATASET PRÉ-TREINO: UBFC-rPPG
+>>> CONFIG: ./configs/tcc_configs/UBFC-rPPG/TCC_EfficientPhys.yaml
+>>> DATA: dom 17 mai 2026 22:02:12 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/EfficientPhys_UBFC-rPPG
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=EfficientPhys_UBFC-rPPG
+[INFO] TCC_MODEL_NAME=EfficientPhys
+[INFO] TCC_PRETRAIN_DATASET=UBFC-rPPG
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/EfficientPhys_UBFC-rPPG
+[INFO] Log individual: ./logs_tcc/EfficientPhys_UBFC-rPPG.log
+[SUCESSO] Finalizado: EfficientPhys_UBFC-rPPG
+
+########################################################
+>>> EXPERIMENTO: FactorizePhys_UBFC-rPPG
+>>> MODELO/TÉCNICA: FactorizePhys
+>>> DATASET PRÉ-TREINO: UBFC-rPPG
+>>> CONFIG: ./configs/tcc_configs/UBFC-rPPG/TCC_FactorizePhys.yaml
+>>> DATA: dom 17 mai 2026 22:27:15 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/FactorizePhys_UBFC-rPPG
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=FactorizePhys_UBFC-rPPG
+[INFO] TCC_MODEL_NAME=FactorizePhys
+[INFO] TCC_PRETRAIN_DATASET=UBFC-rPPG
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/FactorizePhys_UBFC-rPPG
+[INFO] Log individual: ./logs_tcc/FactorizePhys_UBFC-rPPG.log
+[SUCESSO] Finalizado: FactorizePhys_UBFC-rPPG
+
+########################################################
+>>> EXPERIMENTO: iBVPNet_UBFC-rPPG
+>>> MODELO/TÉCNICA: iBVPNet
+>>> DATASET PRÉ-TREINO: UBFC-rPPG
+>>> CONFIG: ./configs/tcc_configs/UBFC-rPPG/TCC_iBVPNet.yaml
+>>> DATA: dom 17 mai 2026 22:52:33 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/iBVPNet_UBFC-rPPG
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=iBVPNet_UBFC-rPPG
+[INFO] TCC_MODEL_NAME=iBVPNet
+[INFO] TCC_PRETRAIN_DATASET=UBFC-rPPG
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/iBVPNet_UBFC-rPPG
+[INFO] Log individual: ./logs_tcc/iBVPNet_UBFC-rPPG.log
+[FALHA] Erro ao executar: iBVPNet_UBFC-rPPG
+[INFO] O experimento será reexecutado do zero na próxima bateria.
+[INFO] Verifique o log: ./logs_tcc/iBVPNet_UBFC-rPPG.log
+
+########################################################
+>>> EXPERIMENTO: PhysFormer_UBFC-rPPG
+>>> MODELO/TÉCNICA: PhysFormer
+>>> DATASET PRÉ-TREINO: UBFC-rPPG
+>>> CONFIG: ./configs/tcc_configs/UBFC-rPPG/TCC_PhysFormer.yaml
+>>> DATA: dom 17 mai 2026 23:09:02 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/PhysFormer_UBFC-rPPG
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=PhysFormer_UBFC-rPPG
+[INFO] TCC_MODEL_NAME=PhysFormer
+[INFO] TCC_PRETRAIN_DATASET=UBFC-rPPG
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/PhysFormer_UBFC-rPPG
+[INFO] Log individual: ./logs_tcc/PhysFormer_UBFC-rPPG.log
+[SUCESSO] Finalizado: PhysFormer_UBFC-rPPG
+
+########################################################
+>>> EXPERIMENTO: PhysMamba_UBFC-rPPG
+>>> MODELO/TÉCNICA: PhysMamba
+>>> DATASET PRÉ-TREINO: UBFC-rPPG
+>>> CONFIG: ./configs/tcc_configs/UBFC-rPPG/TCC_PhysMamba.yaml
+>>> DATA: dom 17 mai 2026 23:41:51 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/PhysMamba_UBFC-rPPG
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=PhysMamba_UBFC-rPPG
+[INFO] TCC_MODEL_NAME=PhysMamba
+[INFO] TCC_PRETRAIN_DATASET=UBFC-rPPG
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/PhysMamba_UBFC-rPPG
+[INFO] Log individual: ./logs_tcc/PhysMamba_UBFC-rPPG.log
+[SUCESSO] Finalizado: PhysMamba_UBFC-rPPG
+
+########################################################
+>>> EXPERIMENTO: PhysNet_UBFC-rPPG
+>>> MODELO/TÉCNICA: PhysNet
+>>> DATASET PRÉ-TREINO: UBFC-rPPG
+>>> CONFIG: ./configs/tcc_configs/UBFC-rPPG/TCC_PhysNet.yaml
+>>> DATA: seg 18 mai 2026 00:16:59 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/PhysNet_UBFC-rPPG
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=PhysNet_UBFC-rPPG
+[INFO] TCC_MODEL_NAME=PhysNet
+[INFO] TCC_PRETRAIN_DATASET=UBFC-rPPG
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/PhysNet_UBFC-rPPG
+[INFO] Log individual: ./logs_tcc/PhysNet_UBFC-rPPG.log
+[SUCESSO] Finalizado: PhysNet_UBFC-rPPG
+
+########################################################
+>>> EXPERIMENTO: RhythmFormer_UBFC-rPPG
+>>> MODELO/TÉCNICA: RhythmFormer
+>>> DATASET PRÉ-TREINO: UBFC-rPPG
+>>> CONFIG: ./configs/tcc_configs/UBFC-rPPG/TCC_RhythmFormer.yaml
+>>> DATA: seg 18 mai 2026 00:38:16 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/RhythmFormer_UBFC-rPPG
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=RhythmFormer_UBFC-rPPG
+[INFO] TCC_MODEL_NAME=RhythmFormer
+[INFO] TCC_PRETRAIN_DATASET=UBFC-rPPG
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/RhythmFormer_UBFC-rPPG
+[INFO] Log individual: ./logs_tcc/RhythmFormer_UBFC-rPPG.log
+[SUCESSO] Finalizado: RhythmFormer_UBFC-rPPG
+
+########################################################
+>>> EXPERIMENTO: TSCAN_UBFC-rPPG
+>>> MODELO/TÉCNICA: TSCAN
+>>> DATASET PRÉ-TREINO: UBFC-rPPG
+>>> CONFIG: ./configs/tcc_configs/UBFC-rPPG/TCC_TSCAN.yaml
+>>> DATA: seg 18 mai 2026 01:23:32 -03
+########################################################
+[INFO] Experimento incompleto ou não realizado.
+[INFO] Limpando saída anterior: ./evaluation_outputs/TSCAN_UBFC-rPPG
+[INFO] Limpando cache: dataset_tcc_preprocessed
+[INFO] TCC_EXPERIMENT_ID=TSCAN_UBFC-rPPG
+[INFO] TCC_MODEL_NAME=TSCAN
+[INFO] TCC_PRETRAIN_DATASET=UBFC-rPPG
+[INFO] TCC_OUTPUT_DIR=./evaluation_outputs/TSCAN_UBFC-rPPG
+[INFO] Log individual: ./logs_tcc/TSCAN_UBFC-rPPG.log
+[SUCESSO] Finalizado: TSCAN_UBFC-rPPG
+
+========================================================
+BATERIA DE TESTES CONCLUÍDA: seg 18 mai 2026 02:04:24 -03
+Log completo salvo em: ./logs_tcc/log_execucao_tcc_completo.txt

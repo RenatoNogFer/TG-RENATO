@@ -1,0 +1,6 @@
+completed_at=2026-05-18T00:38:01
+experiment_id=PhysNet_UBFC-rPPG
+model_name=PhysNet
+pretrain_dataset=UBFC-rPPG
+n_total_events=10334
+n_valid_events=9616

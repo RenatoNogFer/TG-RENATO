@@ -1,0 +1,33 @@
+{
+  "experiment_id": "FactorizePhys_SCAMPS",
+  "model_name": "FactorizePhys",
+  "pretrain_dataset": "SCAMPS",
+  "checkpoint_name": "SCAMPS_FactorizePhys_FSAM_Res.pth",
+  "model_path": "./final_model_release/SCAMPS_FactorizePhys_FSAM_Res.pth",
+  "config_file": "./configs/tcc_configs/SCAMPS/TCC_FactorizePhys.yaml",
+  "status": "completed",
+  "completed_at": "2026-05-17T19:00:49",
+  "n_subjects": 14,
+  "n_total_events": 10334,
+  "n_valid_events": 9614,
+  "n_invalid_events": 720,
+  "coverage_rate": 0.9303270756725373,
+  "global_metrics": {
+    "n_valid_events": 9614,
+    "MAE": 17.49182385388496,
+    "MAE_std_err": 0.1328356206525688,
+    "RMSE": 21.80838912576551,
+    "RMSE_std_err": 0.1328356206525688,
+    "MAPE": 20.351251332272966,
+    "MAPE_std_err": 0.1663161645946338,
+    "Pearson": -0.01631744034532547,
+    "Pearson_std_err": 0.010198476367503966,
+    "median_abs_error": 15.07421875,
+    "std_abs_error": 13.024666388259948
+  },
+  "outputs": {
+    "event_predictions": "./evaluation_outputs/FactorizePhys_SCAMPS/event_predictions.csv",
+    "subject_metrics": "./evaluation_outputs/FactorizePhys_SCAMPS/subject_metrics.csv",
+    "group_metrics": "./evaluation_outputs/FactorizePhys_SCAMPS/group_metrics.csv"
+  }
+}
